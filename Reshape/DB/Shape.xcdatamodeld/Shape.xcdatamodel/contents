@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9057" systemVersion="15C50" minimumToolsVersion="Xcode 7.0">
+    <entity name="PraiseInfoEntity" representedClassName="PraiseInfoEntity" syncable="YES">
+        <attribute name="praise" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="videoID" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="VideoCacheEntity" representedClassName="VideoCacheEntity" syncable="YES">
+        <attribute name="author" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="classifyID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="classifyName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="consume" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="consumeDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="downloadCompleted" optional="YES" attributeType="Boolean" defaultValueString="NO" syncable="YES"/>
+        <attribute name="downloadProgress" optional="YES" attributeType="Float" defaultValueString="0.0" syncable="YES"/>
+        <attribute name="fileName" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="videoDescription" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="videoID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="videoLength" optional="YES" attributeType="Integer 64" defaultValueString="0" syncable="YES"/>
+        <attribute name="videoNativePath" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="videoScreenshotPath" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="videoSourcePath" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="videoTheme" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="PraiseInfoEntity" positionX="252" positionY="-153" width="128" height="73"/>
+        <element name="VideoCacheEntity" positionX="252" positionY="-243" width="128" height="270"/>
+    </elements>
+</model>
